@@ -6,6 +6,10 @@ body {
 	color: #fff;
 }
 
+ul.nav.navbar-nav.navbar-right {
+	margin-right: 12px;
+}
+
 .jumbotron {
 	background-image: url("../images/color.jpg");
 	background-size: cover;
