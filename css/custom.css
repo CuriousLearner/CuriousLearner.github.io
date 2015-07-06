@@ -2,7 +2,9 @@
 
 body {
 	padding-top: 70px;
-	background-image: url("../images/color-hazy.jpg");
+	/* background-image: url("../images/color-hazy.jpg"); */
+	/*background-color: #DCE6F4;*/
+	background-color: #232323;
 	color: #fff;
 }
 
@@ -11,9 +13,11 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 .jumbotron {
-	background-image: url("../images/color.jpg");
+	/* background-image: url("../images/color.jpg"); */
 	background-size: cover;
 	color: #fff;
+	background: rgb(2, 2, 2); /* This is for ie8 and below */
+	background: rgba(2, 2, 2, 0.5); 
 }
 
 .navbar .navbar-brand {
