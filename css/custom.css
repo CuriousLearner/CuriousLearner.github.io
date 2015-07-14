@@ -6,6 +6,8 @@ body {
 	/*background-color: #DCE6F4;*/
 	background-color: #232323;
 	color: #fff;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 16px;
 }
 
 ul.nav.navbar-nav.navbar-right {
@@ -88,4 +90,8 @@ p {
 
 .my-icons {
 	float: right;
+}
+
+.poiret-font {
+	font-family: 'Poiret One', cursive;
 }
