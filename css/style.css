@@ -1,0 +1,34 @@
+.row {
+  padding-top: 10em;
+}
+
+.main-card {
+  height: 25em;
+}
+
+.intro {
+  padding-top: 9em;
+}
+
+.display-pic {
+  position: relative;
+  z-index: 1;
+}
+
+.social-links {
+  position: absolute;
+  bottom:0;
+}
+
+.card-footer {
+  width: 100%;
+}
+
+ul {
+  width:100%;
+  height: 2.5em;
+}
+
+li {
+  display: inline;
+}
