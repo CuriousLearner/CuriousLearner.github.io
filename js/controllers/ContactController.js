@@ -1,3 +1,3 @@
 app.controller('ContactController', function($scope) {
-  alert("ContactController");
+  // alert("ContactController");
 });
