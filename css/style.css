@@ -1,23 +1,37 @@
-.row {
+.row.main-card-row {
   padding-top: 10em;
+  z-index: -1;
 }
 
-.main-card {
+.row.card-head {
+  position: relative;
+  z-index: 1;
+  /*height:15%;*/
+}
+
+.row.card-footer {
+  width: 10%;
+}
+
+.card.main-card {
   height: 25em;
-}
-
-.intro {
-  padding-top: 9em;
+  position: relative;
+  z-index: 1;
 }
 
 .display-pic {
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  z-index: 5;
+  top: -3em;
+  left: 42%;
+  height: 8em;
+  width: 8em;
 }
 
 .social-links {
   position: absolute;
   bottom:0;
+  width:102%;
 }
 
 .card-footer {

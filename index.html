@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-  <html>
+  <html ng-app="app">
     <head>
+      <meta charset="UTF-8">
+      <title>Sanyam Khurana</title>
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -8,41 +10,65 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
       <link type="text/css" rel="stylesheet" href="css/style.css" />
+      <!-- <base href="/index.html"> -->
     </head>
 
     <body class="blue-grey darken-1">
       <div class="container">
-        <div class="row">
+        <div class="row main-card-row"><!-- First row -->
           <div class="card main-card z-depth-5 l12 m12 s12">
-            <div class="card-head teal darken-1">
-              <div class="work-exp waves-effect waves-light btn-large col s3 hoverable">work</div>
-              <div class="about waves-effect waves-light btn-large col s2 hoverable">about</div>
-              <div class="display-pic hoverable col s2 teal lighten-1 waves-effect waves-light">
-                <img class="responsive-img circle z-depth-3" src="img/sanyam.jpg" />
-              </div>
-              <div class="skills waves-effect waves-light btn-large col s2 hoverable">skills</div>
-              <div class="contact waves-effect waves-light btn-large col s3 hoverable">contact</div>
+            <div class="row card-head teal darken-1">
+              <a href="#work">
+                <div class="work-exp waves-effect waves-light btn-large col s3 hoverable">work</div>
+              </a>
+              <a href="#about">
+                <div class="about waves-effect waves-light btn-large col s3 hoverable">about</div>
+              </a>
+              <a href="#">
+                <div class="display-pic circle waves-effect waves-light">
+                  <img class="responsive-img hoverable circle" src="img/sanyam.jpg" />
+                </div>
+              </a>
+              <a href="#skills">
+                <div class="skills waves-effect waves-light btn-large col s3 hoverable">skills</div>
+              </a>
+              <a href="#contact">
+                <div class="contact waves-effect waves-light btn-large col s3 hoverable">contact</div>
+              </a>
             </div>
-            <div class="intro">
-              <h2 class="center-align">Hi! I'm Sanyam Khurana</h2><br>
-              <h5 class="center-align">Curious Learner and Passionate Geek</h5>
+            <div class="row intro">
+              <h2 class="center-align col s12 m12 l12">Hi! I'm Sanyam Khurana</h2><br>
+              <h5 class="center-align col s12 m12 l12 hide-on-small-only">Curious Learner and Passionate Geek</h5><br>
             </div>
-            <div class="card-footer">
-              <ul class="social-links center-align teal darken-1">
-                <li class="btn waves-effect waves-light hoverable"><i class="zmdi zmdi-facebook zmdi-hc-2x"></i></li>
-                <li class="btn waves-effect waves-light hoverable"><i class="zmdi zmdi-github zmdi-hc-2x"></i></li>
-                <li class="btn waves-effect waves-light hoverable"><i class="zmdi zmdi-google-plus zmdi-hc-2x"></i></li>
-                <li class="btn waves-effect waves-light hoverable"><i class="zmdi zmdi-instagram zmdi-hc-2x"></i></li>
-                <li class="btn waves-effect waves-light hoverable"><i class="zmdi zmdi-linkedin-box zmdi-hc-2x"></i></li>
-                <li class="btn waves-effect waves-light hoverable"><i class="zmdi zmdi-twitter zmdi-hc-2x"></i></li>
-                <li class="btn waves-effect waves-light hoverable"><i class="zmdi zmdi-stack-overflow zmdi-hc-2x"></i></li>
+            <div class="row card-footer">
+              <ul class="social-links teal darken-1">
+                <li class="btn waves-effect waves-light hoverable col s1 m1 l1 offset-l2 offset-m2 offset-s2"><i class="zmdi zmdi-facebook zmdi-hc-2x"></i></li>
+                <li class="btn waves-effect waves-light hoverable col s1 m1 l1"><i class="zmdi zmdi-github zmdi-hc-2x"></i></li>
+                <li class="btn waves-effect waves-light hoverable col s1 m1 l1"><i class="zmdi zmdi-google-plus zmdi-hc-2x"></i></li>
+                <li class="btn waves-effect waves-light hoverable col s1 m1 l1"><i class="zmdi zmdi-instagram zmdi-hc-2x"></i></li>
+                <li class="btn waves-effect waves-light hoverable col s1 m1 l1"><i class="zmdi zmdi-linkedin-box zmdi-hc-2x"></i></li>
+                <li class="btn waves-effect waves-light hoverable col s1 m1 l1"><i class="zmdi zmdi-twitter zmdi-hc-2x"></i></li>
+                <li class="btn waves-effect waves-light hoverable col s1 m1 l1"><i class="zmdi zmdi-stack-overflow zmdi-hc-2x"></i></li>
+                <li class="btn waves-effect waves-light hoverable col s1 m1 l1"><i class="zmdi zmdi-border-color zmdi-hc-2x"></i></li>
               </ul>
             </div>
           </div>
-        </div>
+        </div><!--First row end -->
+        <div class="row"><!-- Second row -->
+          <div class="content card center-align z-depth-5 l12 m12 s12">
+            <div ng-view></div>
+          </div><!--content div end-->
+        </div><!--second row end-->
       </div>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-route.min.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+      <script type="text/javascript" src="js/controllers/WorkController.js"></script>
+      <script type="text/javascript" src="js/controllers/SkillsController.js"></script>
+      <script type="text/javascript" src="js/controllers/ContactController.js"></script>
+      <script type="text/javascript" src="js/controllers/AboutController.js"></script>
     </body>
   </html>
