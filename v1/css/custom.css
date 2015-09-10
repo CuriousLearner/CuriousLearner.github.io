@@ -1,0 +1,97 @@
+/* Custom Stylesheet to override BootStrap default stylesheet */
+
+body {
+	padding-top: 70px;
+	/* background-image: url("../images/color-hazy.jpg"); */
+	/*background-color: #DCE6F4;*/
+	background-color: #232323;
+	color: #fff;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 16px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	margin-right: 12px;
+}
+
+.jumbotron {
+	/* background-image: url("../images/color.jpg"); */
+	background-size: cover;
+	color: #fff;
+	background: rgb(2, 2, 2); /* This is for ie8 and below */
+	background: rgba(2, 2, 2, 0.5); 
+}
+
+.navbar .navbar-brand {
+	color: #fff;
+}
+
+.btn-default {
+	margin:  0 0 2px 2px;
+	color: #fff;
+	background-color: #000;
+}
+
+.glyphicon.glyphicon-thumbs-up,
+.glyphicon.glyphicon-check,
+.glyphicon.glyphicon-hand-down,
+.glyphicon.glyphicon-screenshot,
+.glyphicon.glyphicon-user {
+	font-size: 40px;
+}
+
+.timeline-panel{
+	background-color:#000;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.button {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 10px;
+}	
+
+.btn.btn-info {
+	background-color: #000033;
+}
+
+.btn-info:hover {
+	background-color: #000080;
+}
+
+.fa.fa-circle-o-notch {
+	font-size: 30px;
+}
+
+.fa-google-plus:hover,
+.fa-twitter:hover,
+.fa-facebook:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover,
+.fa-flash:hover {
+	color: #1E90FF;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.fa-windows {
+	padding-top: 5px;
+	font-size: 35px;
+}
+
+p {
+	color: #fff;
+}
+
+.my-icons {
+	float: right;
+}
+
+.poiret-font {
+	font-family: 'Poiret One', cursive;
+}
