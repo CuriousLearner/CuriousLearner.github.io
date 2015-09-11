@@ -1,10 +1,17 @@
 app.controller('WorkController', function($scope) {
   // alert("WorkController");
-  $(window).on('scroll', function(){
-  	$timeline_block.each(function(){
-  		if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
-  			$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
-  		}
-  	});
+  $(document).ready(function() {
+    $.timeliner({
+    });
+    $.timeliner({
+      timelineContainer: '#timeline-js',
+      timelineSectionMarker: '.milestone',
+      oneOpen: true,
+      startState: 'flat',
+      expandAllText: '+ Show All',
+      collapseAllText: '- Hide All'
+    });
+    // Colorbox Modal
+    $(".CBmodal").colorbox({inline:true, initialWidth:100, maxWidth:682, initialHeight:100, transition:"elastic",speed:750});
   });
 });
