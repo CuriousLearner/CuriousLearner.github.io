@@ -1,12 +1,12 @@
 .row.display-pic-row {
-  height: 15em;
-  width: 100%;
-  padding-top: 4em;
+  /*height: 15em;
+  width: 100%;*/
+  padding-top: 10em;
 }
 
 .responsive-img.hoverable.circle {
-  width: 100%;
-  height: 100%;
+  /*width: 100%;
+  height: 100%;*/
 }
 
 .row.main-card-row {
@@ -25,53 +25,142 @@
 }
 
 .card.main-card {
-  height: 25em;
-  position: relative;
+  /*height: 25em;*/
+  /*position: relative;*/
   z-index: 1;
 }
 
 .display-pic {
   position: absolute;
   z-index: 5;
-  top:2;
+  /*left: 45%;*/
+  /*margin-left: 40%;*/
+  /*display: block;*/
+  /*top:2;*/
+  /*display: inline-block;*/
+  display: block;
   height: 8em;
   width: 8em;
+  margin-left: 30%;
+  margin-top: -1em;
 }
 
 .social-links {
-  position: absolute;
-  bottom:3em;
-  width:102%;
+  position: relative;
+  bottom:0.5em;
+  /*width:102%;*/
   height:2.5em;
 }
 
 .card-footer {
-  width: 100%;
+  /*width: 100%;*/
+}
+
+.icons {
+  /*width: 128px;
+  height: 128px;*/
+  /*background: transparent;*/
+}
+
+.text {
+  font-size: 1.2em;
+}
+
+.timeline-series {
+  border-left: 2px solid #CCC;
+}
+
+.timeline-time {
+  margin-left: -1em;
+}
+
+.timeline-series dd h3 {
+  color: #000;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 ul {
   width:100%;
-  height: 2.5em;
+  /*height: 2.5em;*/
 }
 
 li {
   display: inline;
 }
 
-div[ng-view].ng-enter {
-    transition: all 0.5s linear;
-    opacity: 0;
+.container.experience-timeline {
+  /*width: 2px;*/
 }
 
-div[ng-view].ng-leave {
-    transition: all 0.5s ease-in linear;
-    opacity: 1;
+.timeline-series dt a:hover {
+  color: #fff;
 }
 
-div[ng-view].ng-enter-active {
-    opacity: 1;
+.timeline-series dt a {
+  color: #fff;
+  cursor: pointer;
 }
 
-div[ng-view].ng-leave-active {
-    opacity: 0;
+.timeline-series dt {
+  font-size: 1em;
+}
+
+.timeline-container {
+  width: 100% !important;
+}
+
+.year {
+  color: #fff;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.work-designation {
+  border-radius: 0.2em;
+}
+
+.timeline-toggle {
+  background: #26A69A none repeat scroll 0% 0%;
+  border-color: inherit;
+  color: #fff;
+  font-size: 0.6em;
+  margin-right: 0px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  .display-pic {
+    /*position: relative;*/
+    margin: 0 40%;
+  }
+  .row.main-card-row {
+    padding-top: 5em;
+  }
+  .row.display-pic-row {
+    padding-top: 5em;
+  }
+  .social-links {
+    height: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .display-pic {
+    /*left:1.5em;*/
+  }
+  .social-links {
+    height: 4em;
+  }
 }
