@@ -164,3 +164,7 @@ li {
     height: 4em;
   }
 }
+
+.form-error-message {
+  color: red;
+}
