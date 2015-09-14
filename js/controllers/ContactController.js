@@ -1,20 +1,32 @@
 app.controller('ContactController', function($scope, $http) {
   $scope.user = {};
+  $scope.processing = false;
   $(document).ready(function() {
     $('textarea#message').characterCounter();
   });
   $scope.submit = function() {
-    console.log($scope.user);
+    $scope.processing = true;
     $http({
       method: 'POST', 
-      url: 'http://localhost:5000/api/send-contact-us-form/', 
+      url: 'http://sanyamkhurana.herokuapp.com/api/send-contact-us-form/', 
       data: $scope.user, 
       }).success(function(data){
-        $scope.result = data.Message;
+        if(data==null) {
+          $scope.result = 'There was some problem recording your response. Please try again later or consider shooting a mail directly.'
+        }
+        else {
+          $scope.result = data.Message;
+        }
+        $scope.processing = false;
       }).
       error(function(data){
-        console.log("Unable to submit form");
-        $scope.result = data.Message;
+        if(data==null) {
+          $scope.result = 'There was some problem recording your response. Please try again later or consider shooting a mail directly.'
+        }
+        else {
+          $scope.result = data.Message;
+        }
+        $scope.processing = false;
       });
     };
 });

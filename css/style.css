@@ -1,65 +1,73 @@
 .row.display-pic-row {
-  /*height: 15em;
-  width: 100%;*/
   padding-top: 10em;
 }
 
-.responsive-img.hoverable.circle {
-  /*width: 100%;
-  height: 100%;*/
-}
-
 .row.main-card-row {
-  /*padding-top: 15em;*/
   z-index: -1;
 }
 
 .row.card-head {
   position: relative;
   z-index: 1;
-  /*height:15%;*/
-}
-
-.row.card-footer {
-  /*width: 10%;*/
 }
 
 .card.main-card {
-  /*height: 25em;*/
-  /*position: relative;*/
   z-index: 1;
+}
+
+.parent-display-pic {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: center;
 }
 
 .display-pic {
   position: absolute;
   z-index: 5;
-  /*left: 45%;*/
-  /*margin-left: 40%;*/
-  /*display: block;*/
-  /*top:2;*/
-  /*display: inline-block;*/
-  display: block;
-  height: 8em;
-  width: 8em;
-  margin-left: 30%;
+  width: 8em;  
+  height: 8em; 
+  margin: auto;  
   margin-top: -1em;
+  margin-left: -4em;
+}
+
+.display-pic span.text-content {
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.5);
+  width: 8em;
+  height: 8em;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  display: table;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.display-pic:hover span.text-content {
+  opacity: 1;
 }
 
 .social-links {
   position: relative;
   bottom:0.5em;
-  /*width:102%;*/
   height:2.5em;
 }
 
-.card-footer {
-  /*width: 100%;*/
-}
-
 .icons {
-  /*width: 128px;
-  height: 128px;*/
-  /*background: transparent;*/
+  margin: 1.2em;
 }
 
 .text {
@@ -85,15 +93,28 @@ li a {
 
 ul {
   width:100%;
-  /*height: 2.5em;*/
 }
 
 li {
   display: inline;
 }
 
-.container.experience-timeline {
-  /*width: 2px;*/
+div[ng-view].ng-enter {
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+
+div[ng-view].ng-leave {
+    transition: all 0.5s ease-in linear;
+    opacity: 1;
+}
+
+div[ng-view].ng-enter-active {
+    opacity: 1;
+}
+
+div[ng-view].ng-leave-active {
+    opacity: 0;
 }
 
 .timeline-series dt a:hover {
@@ -140,6 +161,22 @@ li {
   user-select: none;
 }
 
+.form-error-message {
+  color: red;
+}
+
+.wrap-mail {
+  word-wrap: break-word;
+}
+
+.move-to-top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 5em;
+  margin-bottom: 5em;
+}
+
 @media screen and (max-width: 768px) {
   .display-pic {
     /*position: relative;*/
@@ -154,17 +191,46 @@ li {
   .social-links {
     height: 2em;
   }
+  .timeline-series {
+    width: 20%;
+  }
+  .timeline-event-content p {
+    width: 180%;
+  }
+  .work-designation {
+    font-size: 0.7em;
+  }
+  .display-pic {
+    width: 6em;  
+    height: 6em;  
+    margin-top: -3em;
+    margin-left: -3em;
+  }
+  .display-pic span.text-content {
+    width: 6em;
+    height: 6em;
+  }
+  .move-to-top {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .display-pic {
-    /*left:1.5em;*/
-  }
   .social-links {
     height: 4em;
   }
 }
 
-.form-error-message {
-  color: red;
+@media screen and (max-width: 360px) {
+
+  .timeline-series {
+    width: 20%;
+  }
+  .timeline-event-content p {
+    width: 140%;
+  }
+  .work-designation {
+    font-size: 0.7em;
+  }
 }

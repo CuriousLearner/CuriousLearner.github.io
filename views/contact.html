@@ -1,10 +1,14 @@
 <div>  
   <h3 class="teal darken-1"><span class="btn-large waves-effect waves-light hoverable">contact</span></h3>
-  <div class="row">
-    <h5 class="col s10 offset-s1">You can reach me by simply filling the form below. <br><br>Alternatively you can drop a mail to <br><br>Sanyam[DOT]Khurana[AT]TheGeekyWay[DOT]com<br><br>If you want to contribute/talk about Mozilla, mail to<br><br>Sanyam[AT]MozPacers[DOT]org</h5>
+  <div class="row mail-info">
+    <p class="col s10 m5 l5 offset-s1 offset-m1 offset-l1">You can drop a mail to <br><span class="wrap-mail"><a href="mailto:sk@sanyamkhurana.net">SK[AT]SanyamKhurana[DOT]net</a></span><br><br>If you want to contribute/talk about Mozilla, mail to<br><span class="wrap-mail"><a href="mailto:sanyam@mozpacers.org">Sanyam[AT]MozPacers[DOT]org</a></span></p>
+    <div class="qr-code col s10 m5 l5 offset-s1">
+      <p>Scan this QR Code for my vcard<br><img src="images/qrcode.png" /></p>
+    </div>
   </div>
   <!-- Put up a QR code for vcard here -->
   <div class="row">
+    <p>You can also reach me by simply filling the form below.</p>
     <small>All fields are necessary</small>
     <form novalidate class="col s12" name="contactForm">
       <div class="row">
@@ -42,13 +46,25 @@
       <span ng-show="contactForm.message.$dirty && contactForm.message.$invalid" class="form-error-message">
         <span ng-show="contactForm.message.$error.required">Message is required.</span>
       </span>
+      <br>
+      <span ng-show="processing">
+        <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </span>
+      <span ng-bind="result"></span>
       <br><br>
       <button class="btn waves-effect waves-light"  ng-disabled="contactForm.$pristine || contactForm.$dirty && contactForm.$invalid" type="submit" name="action" ng-click="submit()"> Submit
         <i class="zmdi zmdi-mail-send zmdi-hc-2x"></i>
       </button>
     </form>
-    <br>
-    <span ng-bind="result"></span>
-    <br>
   </div>   
 </div>
