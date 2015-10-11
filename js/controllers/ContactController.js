@@ -1,4 +1,8 @@
 app.controller('ContactController', function($scope, $http) {
+  var target = $(ele);
+  $('html,body').animate({
+    scrollTop: target.offset().top
+  }, 1000);
   $scope.user = {};
   $scope.processing = false;
   $(document).ready(function() {

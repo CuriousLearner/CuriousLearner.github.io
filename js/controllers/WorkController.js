@@ -1,5 +1,9 @@
 app.controller('WorkController', function($scope) {
   // alert("WorkController");
+  var target = $(ele);
+  $('html,body').animate({
+    scrollTop: target.offset().top
+  }, 1000);
   $(document).ready(function() {
     $.timeliner({
     });

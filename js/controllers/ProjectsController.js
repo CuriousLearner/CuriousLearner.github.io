@@ -1,5 +1,5 @@
-app.controller('SkillsController', function($scope) {
-  // alert("SkillsController");
+app.controller('ProjectsController', function($scope) {
+  // alert("ProjectsController");
   var target = $(ele);
   $('html,body').animate({
     scrollTop: target.offset().top
