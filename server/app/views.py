@@ -24,10 +24,12 @@ def send_contact_form():
                   "text": first_name + ' ' + last_name + ' with mail id: ' + 
                   email + ' just filled the' + ' contact form on \
                   SanyamKhurana.net with message: ' + message})
-        return Response(json.dumps({"Message": "Thanks for filling up the \
-                                    form! I'll get back to you ASAP."}), status=200,
-                        content_type="application/json")
-    return Response(json.dumps({"Message": "There was some problem recording your \
-                                response. Please try again later or consider \
-                                shooting a mail directly."}), status=400,
-                        content_type="application/json")
+        return Response(json.dumps({"Message": ("Thanks for filling up the form! "
+                                    "I'll get back to you ASAP.")}),
+                                    status=200,
+                                    content_type="application/json")
+    return Response(json.dumps({"Message": ("There was some problem recording "
+                                "your response. Please try again later or consider "
+                                "shooting a mail directly.")}),
+                                status=400,
+                                content_type="application/json")
