@@ -177,6 +177,10 @@ div[ng-view].ng-leave-active {
   margin-bottom: 5em;
 }
 
+.timeline-series dt {
+  white-space: normal;
+}
+
 @media screen and (max-width: 768px) {
   .display-pic {
     /*position: relative;*/
@@ -220,15 +224,14 @@ div[ng-view].ng-leave-active {
   .social-links {
     height: 4em;
   }
+  .timeline-event-content p {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 360px) {
-
   .timeline-series {
     width: 20%;
-  }
-  .timeline-event-content p {
-    width: 140%;
   }
   .work-designation {
     font-size: 0.7em;
