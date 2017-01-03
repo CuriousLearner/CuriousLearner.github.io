@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/curiouslearner
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sanyamkhurana.com
+  * I am curiouslearner (https://keybase.io/curiouslearner) on keybase.
+  * I have a public key with fingerprint 6FAC F6BD 0443 B161 1C45  8462 828A 7A6A C418 1695
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010144a634412a57962f7bee4d0831bfe664537dee6b5fd47c4bdfa9005ee9c3ae190a",
+            "fingerprint": "6facf6bd0443b1611c458462828a7a6ac4181695",
+            "host": "keybase.io",
+            "key_id": "828a7a6ac4181695",
+            "kid": "010144a634412a57962f7bee4d0831bfe664537dee6b5fd47c4bdfa9005ee9c3ae190a",
+            "uid": "78669e481073516847dac423b31fb819",
+            "username": "curiouslearner"
+        },
+        "service": {
+            "hostname": "sanyamkhurana.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1483442641,
+    "expire_in": 157680000,
+    "prev": "d8cbe0573f955a73f4c3aeed8134112df524eebfd4aac2a662283c3bf05dbfe7",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.61
+Comment: https://keybase.io/crypto
+
+yMIyAnicrVJbSBRRGF6zm5KQFYEVRGMoocmcmTNnZlfS7AK9RCbmJc3tzMyZdVyd
+2WZnt7ZNKTHQCpRSonpINIJuUkHWS6FiRBcS0xCMDAWpxS720gUyOyP21mPn5eec
+//u+//8+Tn9SvCsxTkpDn3YXoudxz3s7Qq4Sf9NglJFNNcJ4ooyfzBVSrZKg7fXr
+KuNhWMACCDHiIQQcFkQ34jRRJgSqrMQDWSMIQYEXVUKQLGgqFBUoqxp2s6xAiFvh
+MQFuFjOZjKYbPmIFLN2wqSzSsKIhWWUh5GWAAFCgIEHESZyERYywAoEEkFugxEoz
+6DDocjIOkizdpG/04p1b7x/4/7x3aE5OlBByEygBVuQFgCQoqnQmx8s80GQJuB1g
+kFgGriEUrYQs3QwFqwm2DGIxtZkM7YV1hTjxOn7mcUFsRHCNvzJkYQNnKWYNlQlY
+pm0qZjVtV9p2wOOw7UjAgR8msndeyCvrhkoTpYQwsYK6aTAeQJGKrTvKAErUOIcg
+yGTIkYBuEa/uIAQRSSw9zhgSppKqpMiEFURecwsCpgU61okqAR4CwKmawEFCZBoQ
+xgqHEeI4iVd4WWMFlYYoMo61Q4ZJtamojX2OK91nYDtkEaa2r6d8oSsu0bV40QLn
+q7kSE5b//YAwY8nsttzk9y3ZeR1p+Y1TBfXH8/acii1Z96OsYOSX/i12omEsZztp
+Hj198VFHelm/a6R7TWl0WtwxOmA1jj9t6Dt6s2FjXUtTYUztTb6V5Wtu9vR8LbUj
+q5PWHqs4+yZ+f2pf1Wjb8LVVMxOZKU9ujJ/ubz1ZHXgZWDYTu3zV35rwu/ZLy5nb
+dT294bGMpc92rlQ/5GwATd8ryWR0hQcHfeev549cqGirv/TinJj39l163sDnrbnZ
+KUUH700Xb2mavdPVH8WTne2pK7rCH6eGtc3tQ1duecq75RedpZHBfSX39zxezz6c
+aN216UHRTNnrkvt7X7XfjVV1FacNFfSQA7XTnaPdP/8A7mBMqA==
+=y2e9
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/curiouslearner
+
+==================================================================
