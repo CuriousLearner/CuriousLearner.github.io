@@ -1,0 +1,14 @@
+<div>
+  <h3 class="teal darken-1"><span class="btn-large waves-effect waves-light hoverable">Recommendations</span></h3>
+  <h4>What people have to say about my work</h4>
+    <div class="recommndations">
+      <div ng-repeat="rec in recommendations" class="recommendation card teal">
+        <div class="recommender col-lg-2 col-md-2 col-sm-2">
+          <div class="rec-image"><img src="{{ rec.recommender.pictureUrl }}" width="50px" height="50px"></div>
+          <div class="name"><b>{{ rec.recommender.firstName }}  {{ rec.recommender.lastName }}</b></div>
+          <div class="headline"><b>{{ rec.recommender.headline }}</b></div>
+        </div>
+        <div class="rec-text col-lg-2 col-md-8 col-sm-8">{{ rec.recommendationText }}</div>
+      </div>
+    </div>
+</div>

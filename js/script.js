@@ -2,7 +2,7 @@
 
 var app = angular.module('app', ['ngRoute', 'ngAnimate']);
 
-app.config(['$routeProvider', function($routeProvider){
+app.config(['$routeProvider', function($routeProvider) {
   $routeProvider.
     when('/work', {
       templateUrl: '../views/work.html',
@@ -23,6 +23,10 @@ app.config(['$routeProvider', function($routeProvider){
     when('/contact', {
       templateUrl: '../views/contact.html',
       controller: 'ContactController'
+    }).
+    when('/recommendations', {
+      templateUrl: '../views/recommendations.html',
+      controller: 'RecommendationsController'
     }).
     otherwise({
       redirectTo: '/'

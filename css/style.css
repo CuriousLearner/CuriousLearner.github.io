@@ -374,3 +374,28 @@ animation-delay: 0.4s;
     text-shadow: 0px 0px 2px #999, 1px 1px 4px rgba(0,0,0,0.7);
  }
 }
+
+#contact-button {
+  margin-right: 20px;
+}
+
+#recommendations-button {
+  margin-left: 20px;
+}
+
+.recommendation {
+  color: #FFFFFF;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.recommender {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.rec-text {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}

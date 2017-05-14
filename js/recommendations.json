@@ -1,0 +1,51 @@
+{
+    "recommendations_received": {
+        "_total": 5,
+        "values": [{
+                "recommendationText": "Sanyam has excellent technical and research skills which always reflects in his solutions. A great coder, debugger and problem solver, an articulate communicator, thoughtful and logical individual. Sanyam always developed/delivered creative solutions to complex problems without any slip-ups. If you ever need someone to solve complex problem, to work and deliver in any situation Sanyam is your man.",
+                "recommender": {
+                    "firstName": "Rajeev",
+                    "lastName": "Singh",
+                    "headline": "AVP-Engineering at Zopper",
+                    "pictureUrl": "images/recommendation_rajeev_singh.jpg"
+                }
+            },
+            {
+                "recommendationText": "I have worked very closely with Sanyam. He is one of the technical SIG lead of our open source community Mozpacers which is working to make internet a better place. He has immense technical knowledge which he always love to share among his team mates and that is the reason he became the technical SIG lead of the community in no time. He is hard working and understand the deadlines of the work to be completed. He believes in quality and team work. He loves to take the responsibility of work on his shoulders. I am sure that he can be an asset to any organization he would work with. I would like to wish him all the very best for his career and would recommend him to all the organizations he is willing to work with.",
+                "recommender": {
+                    "firstName": "Ajay",
+                    "lastName": "Kumar",
+                    "headline": "Senior MSBI and SQL Server Developer",
+                    "pictureUrl": "images/recommendation_ajay_kumar.jpg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam is one of the core contributors of Mozilla Delhi. As a community lead of Mozpacers, I have worked with him closely. His great contributions and leadership qualities made him earn SIG Lead position in our community. He is very committed in his contributions and he has an awesome knowledge on various technologies. He learns things very quickly and takes initiatives to get work done by the community members.",
+                "recommender": {
+                    "firstName": "Anup",
+                    "lastName": "Mishra",
+                    "headline": "Senior BI and SQL Server Developer",
+                    "pictureUrl": "images/recommendation_anup_mishra.jpg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam is a hardworking intern. He is passionate programmer and is willing to learn and try everything. He can do any task given to him with utmost ease and total perfection. It was pleasure having him in the team.",
+                "recommender": {
+                    "firstName": "Apoorva",
+                    "lastName": "Srinivasan",
+                    "headline": "Lead Front End Developer at Zopper",
+                    "pictureUrl": "images/recommendation_apoorva_srinivasan.jpg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam and I have been working closely as the Technical SIG Leads of Mozilla Delhi. Sanyam is an inspiring guy to work with and is generally found inspiring and helping contributors on our slack channel. He has a knack for learning new technologies and somehow implementing them perfectly.",
+                "recommender": {
+                    "firstName": "Nikhil",
+                    "lastName": "Handa",
+                    "headline": "Software Engineer at NowFloats",
+                    "pictureUrl": "images/recommendation_nikhil_handa.jpg"
+                }
+            }
+        ]
+    }
+}
