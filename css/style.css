@@ -399,3 +399,12 @@ animation-delay: 0.4s;
   padding-left: 10px;
   text-align: left;
 }
+
+@media screen and (max-width: 600px) {
+  #contact-button {
+    margin:0px;
+  }
+  #recommendations-button {
+    margin:0px;
+  }
+}
