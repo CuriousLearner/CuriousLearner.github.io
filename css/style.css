@@ -440,3 +440,20 @@ animation-delay: 0.4s;
   background-color: #fff !important;
   color: #2980b9;
 }
+
+.recommender > .name {
+  color: #2d2344;
+}
+
+.recommender > .headline {
+  color: #1f3998;
+}
+
+.recommender > .rec-image > img {
+  border: 2px solid #FFF;
+}
+
+.card .card-title {
+  color: #2d2344;
+  font-weight: 500;
+}
