@@ -1,3 +1,15 @@
+body {
+  background-color: #BDC3C7;
+}
+
+.btn, .btn-large {
+  background-color: #2980b9 !important;
+}
+
+.blue, .btn:hover, .btn-large:hover {
+  background-color: #439AD3 !important;
+}
+
 .row.display-pic-row {
   padding-top: 10em;
 }
@@ -385,8 +397,7 @@ animation-delay: 0.4s;
 
 .recommendation {
   color: #FFFFFF;
-  margin: 20px 20px 20px 20px;
-  padding: 20px 20px 20px 20px;
+  padding: 20px !important;
 }
 
 .recommender {
@@ -407,4 +418,25 @@ animation-delay: 0.4s;
   #recommendations-button {
     margin:0px;
   }
+}
+
+.card-action a {
+  font-size: 0.9em;
+}
+
+.card .card-action a {
+  color: #f1c40f;
+}
+
+.card .card-action a:hover {
+  color: #f39c12;
+}
+
+.card .card-action {
+  padding: 10px 20px;
+}
+
+.blue.darken-2 {
+  background-color: #fff !important;
+  color: #2980b9;
 }
