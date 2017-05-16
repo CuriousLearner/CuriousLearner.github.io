@@ -129,10 +129,6 @@ div[ng-view].ng-leave-active {
     opacity: 0;
 }
 
-.timeline-series dt a:hover {
-  color: #fff;
-}
-
 .timeline-series dt a {
   color: #fff;
   cursor: pointer;
@@ -437,6 +433,11 @@ animation-delay: 0.4s;
 }
 
 .blue.darken-2 {
+  background-color: #fff !important;
+  color: #2980b9;
+}
+
+.blue.lighten-1 {
   background-color: #fff !important;
   color: #2980b9;
 }
