@@ -399,12 +399,14 @@ animation-delay: 0.4s;
 .recommender {
   padding-right: 10px;
   padding-left: 10px;
+  padding-bottom: 20px;
 }
 
 .rec-text {
   padding-right: 10px;
   padding-left: 10px;
-  text-align: left;
+  text-align: center;
+  font-size: .9em;
 }
 
 @media screen and (max-width: 600px) {
@@ -443,18 +445,32 @@ animation-delay: 0.4s;
 }
 
 .recommender > .name {
-  color: #2d2344;
+  color: #ecf0f1;
 }
 
 .recommender > .headline {
-  color: #1f3998;
+  color: #f1c40f;
 }
 
 .recommender > .rec-image > img {
   border: 2px solid #FFF;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 .card .card-title {
-  color: #2d2344;
+  color: #ecf0f1;
   font-weight: 500;
+  font-size: 28px;
+}
+
+.card-content p {
+  padding-top: 10px;
+}
+
+.section-heading {
+  color: #fff;
+  padding: 10px;
+  margin-top: 0;
 }

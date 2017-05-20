@@ -1,10 +1,10 @@
 <div>
-  <h3 class="blue darken-1"><span class="btn-large waves-effect waves-light hoverable">Recommendations</span></h3>
+  <h3 class="blue darken-1 section-heading">Recommendations</h3>
   <h4>What people have to say about my work</h4>
     <div class="recommndations row">
       <div ng-repeat="rec in recommendations" class="recommendation card blue col s10 offset-s1">
         <div class="recommender">
-          <div class="rec-image"><img src="{{ rec.recommender.pictureUrl }}" width="50px" height="50px"></div>
+          <div class="rec-image"><img src="{{ rec.recommender.pictureUrl }}"></div>
           <div class="name"><b>{{ rec.recommender.firstName }}  {{ rec.recommender.lastName }}</b></div>
           <div class="headline"><b>{{ rec.recommender.headline }}</b></div>
         </div>
