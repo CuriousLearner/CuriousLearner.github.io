@@ -16,6 +16,10 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: '../views/skills.html',
       controller: 'SkillsController'
     }).
+    when('/talks', {
+      templateUrl: '../views/talks.html',
+      controller: 'TalksController'
+    }).
     when('/projects', {
       templateUrl: '../views/projects.html',
       controller: 'ProjectsController'
