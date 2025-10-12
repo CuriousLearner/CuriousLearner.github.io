@@ -1,0 +1,66 @@
+<div>
+  <h3 class="blue darken-1 section-heading">Contact</h3>
+  <div class="row mail-info">
+    <p class="col s10 m5 l5 offset-s1 offset-m1 offset-l1">You can drop a mail to <br><span class="wrap-mail"><a href="mailto:sanyam@sanyamkhurana.com">Sanyam[AT]SanyamKhurana[DOT]com</a></span><br></p>
+  </div>
+  <!-- Put up a QR code for vcard here -->
+  <div class="row">
+    <p>You can also reach me by simply filling the form below.</p>
+    <small>All fields are necessary</small>
+    <form novalidate class="col s12" name="contactForm">
+      <div class="row">
+        <div class="input-field col s5 offset-s1">
+          <input id="first_name" type="text" name="first_name" ng-model="user.first_name" class="validate" required>
+          <label for="first_name">First Name</label>
+          <span ng-show="contactForm.first_name.$dirty && contactForm.first_name.$invalid" class="form-error-message">
+            <span ng-show="contactForm.first_name.$error.required">First Name is required.</span>
+          </span>
+        </div>
+        <div class="input-field col s5">
+          <input id="last_name" type="text" name="last_name" ng-model="user.last_name" class="validate" required>
+          <label for="last_name">Last Name</label>
+          <span ng-show="contactForm.last_name.$dirty && contactForm.last_name.$invalid" class="form-error-message">
+            <span ng-show="contactForm.last_name.$error.required">Last Name is required.</span>
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s10 offset-s1">
+          <input id="email" type="email" name="email" ng-model="user.email" class="validate" required>
+          <label for="email">Email</label>
+          <span ng-show="contactForm.email.$dirty && contactForm.email.$invalid" class="form-error-message">
+            <span ng-show="contactForm.email.$error.required">Email is required.</span>
+            <span ng-show="contactForm.email.$error.email">Invalid email address.</span>
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s10 offset-s1">
+          <textarea id="message" class="materialize-textarea" name="message" ng-model="user.message" length="500" class="validate" required></textarea>
+          <label for="textarea">Message</label>
+        </div>
+      </div>
+      <span ng-show="contactForm.message.$dirty && contactForm.message.$invalid" class="form-error-message">
+        <span ng-show="contactForm.message.$error.required">Message is required.</span>
+      </span>
+      <br>
+      <span ng-show="processing">
+        <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </span>
+      <span ng-bind="result"></span>
+      <button class="btn waves-effect waves-light"  ng-disabled="contactForm.$pristine || contactForm.$dirty && contactForm.$invalid" type="submit" name="action" ng-click="submit()"> Submit
+        <i class="zmdi zmdi-mail-send zmdi-hc-2x"></i>
+      </button>
+    </form>
+  </div>
+</div>
