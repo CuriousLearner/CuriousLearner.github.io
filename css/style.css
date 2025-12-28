@@ -459,10 +459,15 @@ animation-delay: 0.4s;
   height: 100px;
 }
 
-.card .card-title {
-  color: #ecf0f1;
+.card .card-title,
+.card-title {
+  color: #2980b9 !important;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.card .card-content .card-title {
+  color: #2980b9 !important;
 }
 
 .card-content p {
@@ -481,4 +486,47 @@ animation-delay: 0.4s;
 
 .talk-list {
   display: grid;
+}
+
+/* Talks Section Styles */
+.talks-section-title {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.talk-conference {
+  color: #7f8c8d;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.talk-conference i {
+  margin-right: 5px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-action a i {
+  margin-right: 5px;
+}
+
+.card .card-image .video-container {
+  background-color: #000;
 }

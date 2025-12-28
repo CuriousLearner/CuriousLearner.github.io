@@ -1,13 +1,131 @@
 {
     "recommendations_received": {
-        "_total": 5,
-        "values": [{
+        "_total": 18,
+        "values": [
+            {
+                "recommendationText": "I had the privilege to work alongside Sanyam on a handful of projects during our time together at Fueled, and as a mobile engineer I can say that Sanyam made my interaction with backend APIs resoundingly easier. His understanding of complex architectures, as well as his ability to accommodate frontend needs exemplifies Sanyam's knowledge of backend systems. Even more impressive was his ability to context-switch between multiple projects. On top of all this he exudes both self-assuredness and humbleness, thoughtfully and calmly allaying concerns of clients or stakeholders. It was a pleasure being on the same team as Sanyam, and I can whole-heartedly recommend him as a talented and brilliant engineer, as well as a fantastic colleague.",
+                "recommender": {
+                    "firstName": "Robert",
+                    "lastName": "Deans",
+                    "headline": "Senior Software Engineer focusing on iOS and Swift platforms",
+                    "pictureUrl": "images/recommendations/rob-deans.jpeg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam Khurana is a distinguished software engineer with a notable background in computer science. His contributions to the Open Source community, particularly through his involvement with projects like Django and CPython, highlight his technical expertise and commitment to the field. Sanyam's approach to software development, emphasizing the importance of architecture and thorough documentation, reflects his deep understanding of what makes software effective and impactful. Beyond his technical skills, his dedication to continuous learning and development in his field is commendable. I recommend him strongly and without hesitation. You'd be lucky to work with him!",
+                "recommender": {
+                    "firstName": "Ryan D.",
+                    "lastName": "Matzner",
+                    "headline": "Co-Founder @ Fueled",
+                    "pictureUrl": "images/recommendations/ryan-matzner.jpeg"
+                }
+            },
+            {
+                "recommendationText": "I have had a very positive experience while working closely with Sanyam on several projects. Sanyam has very strong analytical skills, and is dedicated towards delivering high-quality solutions. Sanyam is a collaborative team player and communicates effectively with cross-functional teams, promoting a positive and a productive working environment. He has always been very helpful in offering technical insights to me and my team which has been invaluable in designing test cases and figuring out the potential failure points. His skills, professionalism, and dedication makes him an asset to any organization.",
+                "recommender": {
+                    "firstName": "Tavleen",
+                    "lastName": "Kour",
+                    "headline": "Quality Assurance Manager @ Fueled",
+                    "pictureUrl": "images/recommendations/tavleen-kour.jpeg"
+                }
+            },
+            {
+                "recommendationText": "I've had the pleasure of working alongside Sanyam for many years at Fueled, and we worked on various projects together throughout that time. He was great at foreseeing potential issues down the road with a project, and was easily able to adapt to the ongoing changes and demands of our client projects. He was trustworthy, proactive, organised, communicative, supremely reliable, and the quality of his work was consistently top notch. I always looked forward to being on a project with Sanyam because I knew it would go that much smoother! I would always want him on my team.",
+                "recommender": {
+                    "firstName": "Samuel",
+                    "lastName": "Skelton",
+                    "headline": "Director of Engineering, Apple Platforms - at Fueled",
+                    "pictureUrl": "images/recommendations/samuel-skelton.jpeg"
+                }
+            },
+            {
+                "recommendationText": "I've had the privilege of working with Sanyam on a couple of projects at Fueled. He's astute and a great problem solver. I've found him to be an extremely talented engineer with quick turnaround time be it bugs or feature dev. His open source contributions especially around core python frameworks have been pretty motivating for me and inspiring a lot of folks at fueled. I have no doubts that he'll be amazing at his next venture.",
+                "recommender": {
+                    "firstName": "Anvith",
+                    "lastName": "Bhat",
+                    "headline": "1x engineer 2x trouble maker",
+                    "pictureUrl": "images/recommendations/anvith-bhat.jpeg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam is a wonderful addition to any team. He's always willing to go the extra mile to find a solution or help another team member. He's technically knowledgeable, patient and understanding with other team members, and a great client-facing addition to any project. I worked with him on two projects and on both occasions I found his leadership to be inspiring and his knowledge got us out of trouble multiple times.",
+                "recommender": {
+                    "firstName": "Carmen",
+                    "lastName": "Morawski Lasso",
+                    "headline": "Lead Project Manager @ Fueled",
+                    "pictureUrl": "images/recommendations/carmen-m.jpeg"
+                }
+            },
+            {
+                "recommendationText": "I had the privilege of working with Sanyam for just over three years. We collaborated on multiple projects, and I found his technical skills invaluable to the success of those endeavors. Throughout our collaboration, Sanyam was responsible for constructing and architecting the backend. His open-source contributions in the Python community have led to a greater understanding of the language and tools, which he shared with the rest of the engineering team. His passion for programming is evident in his work, and I would highly recommend him for any team.",
+                "recommender": {
+                    "firstName": "John",
+                    "lastName": "Taylor",
+                    "headline": "Software Developer, Founder and Mentor",
+                    "pictureUrl": "images/recommendations/john-taylor.jpeg"
+                }
+            },
+            {
+                "recommendationText": "I had the privilege of working with Sanyam on a challenging project during his time at Fueled. He stepped in and helped the team solve several issues with his backend expertise, deep understanding of complex systems, and willingness to go the extra mile to find solutions to problems. His attention to detail, high-quality deliverables, proactivity and communication skills greatly contributed to the successful delivery of our project. I strongly believe that Sanyam would bring great value to any team or project he's part of.",
+                "recommender": {
+                    "firstName": "Roxana",
+                    "lastName": "Golescu",
+                    "headline": "Head of Operations at Signifly",
+                    "pictureUrl": "images/recommendations/roxana-golescu.jpeg"
+                }
+            },
+            {
+                "recommendationText": "Having collaborated closely with Sanyam for the past 4-5 years, I've consistently witnessed his exceptional problem-solving skills. His commitment to untangle the most intricate knots with the finesse of a seasoned artisan makes our collaborative projects more robust. I can attest to the depth of his technical expertise. His ability to navigate through a diverse range of technologies ensures that the solutions delivered are not only effective but also forward-thinking. I strongly recommend Sanyam for any backend role. His diligence, problem-solving skills, and technical know-how make him an invaluable asset to any team or project.",
+                "recommender": {
+                    "firstName": "Vinay",
+                    "lastName": "Kharb",
+                    "headline": "Senior Software Engineer at GXS Bank",
+                    "pictureUrl": "images/recommendations/vinay-kharb.jpeg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam is an outstanding engineer with extensive experience and a profound passion for programming. We collaborated on different projects where he was responsible for building the backend. His work consistently exhibited high quality, and his ability to collaborate with the team was exemplary. Sanyam was not only proactive but also exceptionally adept at proposing clever resolution strategies and alternative approaches that better suited the project's needs. His work ethic, combined with his insightful questioning and commitment to excellence, had a significant impact on all the projects. I highly recommend Sanyam. His technical expertise, effective communication, and leadership skills are invaluable assets for any team.",
+                "recommender": {
+                    "firstName": "Giuseppe",
+                    "lastName": "Silvano",
+                    "headline": "Software developer, improving the UX of the world",
+                    "pictureUrl": "images/recommendations/giuseppe-silvano.jpeg"
+                }
+            },
+            {
+                "recommendationText": "I have had the privilege of managing Sanyam for the past six years, and our professional connection spans over a decade. Throughout this time, I have consistently admired his unwavering work ethic, dedication, and tenacious \"never give up\" attitude. Sanyam consistently delivers on his commitments, asks insightful questions, and consistently strives to produce his best work. Sanyam stands out as a highly intelligent individual, an exceptionally effective communicator and a leader. He has consistently demonstrated a proactive approach to learning, always staying ahead in the game. Sanyam is a great team player and I would always want him on my side.",
+                "recommender": {
+                    "firstName": "Saurabh",
+                    "lastName": "Kumar",
+                    "headline": "Architecting High-Performance Web Services | Director @ Fueled | Open Source Maintainer (8K+ Stars) | Solutions Across Fintech, Healthcare & E-commerce",
+                    "pictureUrl": "images/recommendations/saurabh-kumar.jpeg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam is a thoughtful and well seasoned engineer who consistently delivers great work. As the project manager on his team, I valued his clear communication, consistent on time delivery, and willingness to work with me to find solutions to tricky situations. He is also consistent in applying best practices in security and technical standards, which gave me confidence that our client's data was well taken care of. He is diligent, proactive, and genuinely interested in his work, leading to excellent quality of deliverables. I will absolutely miss having him as a core member of my team.",
+                "recommender": {
+                    "firstName": "Alex",
+                    "lastName": "Hoisington",
+                    "headline": "Digital Products @ RRI",
+                    "pictureUrl": "images/recommendations/alex-hoisington.jpeg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam Khurana has been a mentor to me ever since I started visiting events by Open Source Python Community, PyDelhi. At first, he assisted me while I was volunteering and guided me towards being more supportive to others. After discovering about his contributions I got to know about the cool projects he contributes to in upstream organisations and he helped me get started too. Once such org. is Mozilla. He inducted, showed me around and now is guiding me while I contribute to it's projects. Hands down, the best mentor I ever had and always ready to helpout. A true part of community :)",
+                "recommender": {
+                    "firstName": "Shashank",
+                    "lastName": "Kumar",
+                    "headline": "Experienced Software Engineer building web applications and data pipelines at scale",
+                    "pictureUrl": "images/recommendations/shashank-kumar.jpeg"
+                }
+            },
+            {
                 "recommendationText": "Sanyam has excellent technical and research skills which always reflects in his solutions. A great coder, debugger and problem solver, an articulate communicator, thoughtful and logical individual. Sanyam always developed/delivered creative solutions to complex problems without any slip-ups. If you ever need someone to solve complex problem, to work and deliver in any situation Sanyam is your man.",
                 "recommender": {
                     "firstName": "Rajeev",
                     "lastName": "Singh",
-                    "headline": "AVP-Engineering at Zopper",
-                    "pictureUrl": "images/recommendation_rajeev_singh.jpg"
+                    "headline": "Senior Vice President of Engineering",
+                    "pictureUrl": "images/recommendations/rajeev-singh.jpeg"
                 }
             },
             {
@@ -15,26 +133,8 @@
                 "recommender": {
                     "firstName": "Ajay",
                     "lastName": "Kumar",
-                    "headline": "Senior MSBI and SQL Server Developer",
-                    "pictureUrl": "images/recommendation_ajay_kumar.jpg"
-                }
-            },
-            {
-                "recommendationText": "Sanyam is one of the core contributors of Mozilla Delhi. As a community lead of Mozpacers, I have worked with him closely. His great contributions and leadership qualities made him earn SIG Lead position in our community. He is very committed in his contributions and he has an awesome knowledge on various technologies. He learns things very quickly and takes initiatives to get work done by the community members.",
-                "recommender": {
-                    "firstName": "Anup",
-                    "lastName": "Mishra",
-                    "headline": "Senior BI and SQL Server Developer",
-                    "pictureUrl": "images/recommendation_anup_mishra.jpg"
-                }
-            },
-            {
-                "recommendationText": "Sanyam is a hardworking intern. He is passionate programmer and is willing to learn and try everything. He can do any task given to him with utmost ease and total perfection. It was pleasure having him in the team.",
-                "recommender": {
-                    "firstName": "Apoorva",
-                    "lastName": "Srinivasan",
-                    "headline": "Lead Front End Developer at Zopper",
-                    "pictureUrl": "images/recommendation_apoorva_srinivasan.jpg"
+                    "headline": "Senior Database Engineer at S&P Global Market Intelligence",
+                    "pictureUrl": "images/recommendations/ajay-kumar.jpg"
                 }
             },
             {
@@ -42,8 +142,26 @@
                 "recommender": {
                     "firstName": "Nikhil",
                     "lastName": "Handa",
-                    "headline": "Software Engineer at NowFloats",
-                    "pictureUrl": "images/recommendation_nikhil_handa.jpg"
+                    "headline": "Staff Software Engineer at Ivanti",
+                    "pictureUrl": "images/recommendations/nikhil-handa.jpeg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam is one of the core contributors of Mozilla Delhi . As a community lead of Mozpacers, I have worked with him closely. His great contributions and leadership qualities made him earn SIG Lead position in our community . He is very committed in his contributions and he has an awesome knowledge on various technologies. He learns things very quickly and takes initiatives to get work done by the community members.",
+                "recommender": {
+                    "firstName": "Anup",
+                    "lastName": "M",
+                    "headline": "Database Architect",
+                    "pictureUrl": "images/recommendations/anup-m.jpg"
+                }
+            },
+            {
+                "recommendationText": "Sanyam is a hardworking intern. He is passionate programmer and is willing to learn and try everything. He can do any task given to him with utmost ease and total perfection. It was pleasure having him in the team",
+                "recommender": {
+                    "firstName": "Apoorva",
+                    "lastName": "Srinivasan",
+                    "headline": "FullStack Developer",
+                    "pictureUrl": "images/recommendations/apoorva-srinivasan.jpg"
                 }
             }
         ]
