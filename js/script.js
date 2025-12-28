@@ -2,6 +2,34 @@
 
 var app = angular.module('app', ['ngRoute', 'ngAnimate']);
 
+// Theme Toggle Functionality
+function toggleTheme() {
+  const body = document.body;
+  const isDarkMode = body.classList.toggle('dark-mode');
+  localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  updateThemeIcon(isDarkMode);
+}
+
+function updateThemeIcon(isDarkMode) {
+  const icon = document.querySelector('.theme-toggle i');
+  if (icon) {
+    icon.className = isDarkMode ? 'zmdi zmdi-brightness-7 zmdi-hc-2x' : 'zmdi zmdi-brightness-6 zmdi-hc-2x';
+  }
+}
+
+function initTheme() {
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+    document.body.classList.add('dark-mode');
+    updateThemeIcon(true);
+  }
+}
+
+// Initialize theme on page load
+document.addEventListener('DOMContentLoaded', initTheme);
+
 app.config(['$routeProvider', function($routeProvider) {
   $routeProvider.
     when('/work', {
