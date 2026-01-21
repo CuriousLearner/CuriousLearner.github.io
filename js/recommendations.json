@@ -1,7 +1,16 @@
 {
     "recommendations_received": {
-        "_total": 18,
+        "_total": 19,
         "values": [
+            {
+                "recommendationText": "Sanyam was willing to work on any problem given to him, often several at a time. He has deep knowledge of infrastructure and software architecture best practices that allow him to move quickly regardless of network topology or provider. During our time together, he took the lead on several complex assignments—refactoring important revenue-facing components and modernizing the infrastructure for a high-traffic media site. I had a great collaboration with Sanyam; he is an incredibly talented engineer whose problem-solving speed consistently impressed me. With both DevOps and development expertise, he's a versatile colleague for any tech organization, able to work at both the systems and application levels—a rare combination. He is always friendly, smiling, and eager to learn.",
+                "recommender": {
+                    "firstName": "Brian",
+                    "lastName": "Luft",
+                    "headline": "Principal Engineer",
+                    "pictureUrl": "images/recommendations/brian-luft.jpeg"
+                }
+            },
             {
                 "recommendationText": "I had the privilege to work alongside Sanyam on a handful of projects during our time together at Fueled, and as a mobile engineer I can say that Sanyam made my interaction with backend APIs resoundingly easier. His understanding of complex architectures, as well as his ability to accommodate frontend needs exemplifies Sanyam's knowledge of backend systems. Even more impressive was his ability to context-switch between multiple projects. On top of all this he exudes both self-assuredness and humbleness, thoughtfully and calmly allaying concerns of clients or stakeholders. It was a pleasure being on the same team as Sanyam, and I can whole-heartedly recommend him as a talented and brilliant engineer, as well as a fantastic colleague.",
                 "recommender": {
